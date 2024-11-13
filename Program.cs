@@ -14,6 +14,7 @@ namespace WindowsServer
 	public static void Main()
 	{
 	    App app = new App();
+	    app.ShutdownMode = ShutdownMode.OnExplicitShutdown;
 	    app.Run();
 	}
     }
